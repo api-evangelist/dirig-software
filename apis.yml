@@ -1,23 +1,73 @@
 aid: dirig-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dirig-software.png
 name: Dirig Software
-description: Dirig Software is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Dirig Software, Inc. was a Nashua, New Hampshire software company that
+  built application and system management software for eBusiness — agent-based performance
+  monitoring and automated problem correction for J2EE application servers (WebLogic,
+  WebSphere), web infrastructure, and hosted service-provider environments, sold both
+  direct to enterprises and through OEM and service-provider channels. The company
+  was venture-backed by Battery Ventures. Its web presence at dirig.com carried full
+  product, partner, and support content through roughly 2003, degraded to a broken
+  holding page under the name "Dirig Corporation" from early 2004, and by late 2006
+  the domain was a parked Sedo for-sale page. As of this enrichment pass the company
+  has no live website, developer portal, documentation, or API surface of any kind;
+  dirig.com now resolves to an unrelated third-party endpoint returning a bare "OK"
+  health response. This profile is retained as a historical company record in the
+  API Evangelist network — there is nothing to enrich and nothing to score.'
 url: https://raw.githubusercontent.com/api-evangelist/dirig-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-evidence:
+- source: http://web.archive.org/web/20010123213000/http://www.dirig.com/
+  note: 'Live Dirig Software site, 2001: "Application and System Management for eBusiness"
+    with corporate, solutions, partners, and support sections.'
+- source: http://web.archive.org/web/20030401000000/http://www.dirig.com/
+  note: 'Last substantive product content, 2003: performance management guaranteeing
+    application uptime and transaction success.'
+- source: http://web.archive.org/web/20040328140237/http://www.dirig.com/
+  note: 'From March 2004 the site is a 371-byte page titled "Dirig Corporation" with
+    a broken meta-refresh — no content.'
+- source: http://web.archive.org/web/20071010083112/http://www.dirig.com/
+  note: 'By October 2007 dirig.com is a Sedo parked domain-for-sale page.'
+- source: https://dirig.com/
+  note: 'Probed 2026-07-20: HTTP 200, 2-byte body "OK" (openresty), unrelated to Dirig
+    Software. No developer or API content.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Application Performance Management
+- Systems Management
+- Monitoring
+- Enterprise Software
+- J2EE
+- Historical
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
