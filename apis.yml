@@ -48,7 +48,7 @@ x-status-evidence:
 - source: https://dirig.com/
   note: 'Probed 2026-07-20: HTTP 200, 2-byte body "OK" (openresty), unrelated to Dirig
     Software. No developer or API content.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
